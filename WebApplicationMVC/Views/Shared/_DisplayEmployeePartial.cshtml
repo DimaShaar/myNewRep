@@ -1,0 +1,16 @@
+﻿@model Employee
+@{ 
+    var photoPath = "~/images/" + (Model.photopath ?? "noimage.jpg");
+
+}
+<div class="card col-3 m-3 p-0">
+    <div class="card-header">
+        <h3>@Model.Name</h3>
+    </div>
+    <img class="card-img-top imagetheam" src="@photoPath" asp-append-version="true" />
+    <div class="card-footer text-center">
+        <a asp-controller="Employee" asp-action="details" asp-route-id="@Model.Id" class="btn btn-primary">Details</a>
+        <a asp-action="edit" asp-controller="employee" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a>
+        <a href="#" class="btn btn-danger">Delete</a>
+    </div>
+</div>
