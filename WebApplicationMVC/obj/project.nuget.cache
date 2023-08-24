@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "58bdbxBIkkAb+mFXVk7gDpeieSYYIk4HLoKrf+yJ4hrwb2AE3/cUVNkLn5YnyaXeWtbnBLpS19Q//B4hgebBLQ==",
+  "dgSpecHash": "rEFu5guza4JOP0s6Kp9kjMnM/Dq4491mwG/2cQDl/98Rza4PAi1MY/lwtqEe/XPVWgg3uCOCHEg/m51k6UM8IA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\Material\\WebApplicationMVC - Apply Identity\\WebApplicationMVC\\WebApplicationMVC.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\myNewRep\\WebApplicationMVC\\WebApplicationMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
